@@ -2,6 +2,7 @@ import styled from "styled-components"
 import InfoCardItem from "../subComponents/InfoCardItem"
 
 export const InfoCardContainer = styled.div`
+  color: black;
   display: flex;
   flex-direction: column;
   border-radius: 8px;

@@ -4,5 +4,13 @@
     "@babel/preset-react",
     "@babel/preset-env"
   ],
-  "plugins": [["@babel/transform-runtime"]]
+  "plugins": [
+    ["@babel/transform-runtime"],
+    [
+      "babel-plugin-styled-components",
+      {
+        "namespace": "anish_app"
+      }
+    ]
+  ]
 }
